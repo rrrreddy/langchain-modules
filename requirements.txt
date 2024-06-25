@@ -5,3 +5,5 @@ langchain-cohere
 langchain-anthropic
 langchain-huggingface
 langchain-google-firestore
+langchainhub
+wikipedia
