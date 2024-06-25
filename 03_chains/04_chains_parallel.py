@@ -79,7 +79,7 @@ chain = (
 
 result = chain.invoke(
     {
-        "product_name" : "Apple 15 pro max"
+        "product_name" : "Apple 14 pro max"
     }
 )
 
