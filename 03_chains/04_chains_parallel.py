@@ -25,7 +25,13 @@ prompt_template = ChatPromptTemplate.from_messages(
 # cons prompt template
 # https://python.langchain.com/v0.2/docs/how_to/parallel/
 
-
+#      Input
+#       / \
+#      /   \
+#  Branch1 Branch2
+#      \   /
+#       \ /
+#       Combine
 
 # Define pros analysis step
 
