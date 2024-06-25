@@ -1,3 +1,6 @@
 langchain
 langchain-groq
 python-dotenv
+langchain-cohere
+langchain-anthropic
+langchain-huggingface
