@@ -1,0 +1,89 @@
+/Users/rb/Documents/Raghu/Projects/GenAI/langchain/langchain-modules/env/lib/python3.11/site-packages/langchain/_api/module_import.py:92: LangChainDeprecationWarning: Importing PyMuPDFLoader from langchain.document_loaders is deprecated. Please replace deprecated imports:
+
+>> from langchain.document_loaders import PyMuPDFLoader
+
+with new imports of:
+
+>> from langchain_community.document_loaders import PyMuPDFLoader
+You can use the langchain cli to **automatically** upgrade many imports. Please see documentation here https://python.langchain.com/v0.2/docs/versions/v0_2/ 
+  warn_deprecated(
+/Users/rb/Documents/Raghu/Projects/GenAI/langchain/langchain-modules/env/lib/python3.11/site-packages/langchain/_api/module_import.py:92: LangChainDeprecationWarning: Importing Chroma from langchain.vectorstores is deprecated. Please replace deprecated imports:
+
+>> from langchain.vectorstores import Chroma
+
+with new imports of:
+
+>> from langchain_community.vectorstores import Chroma
+You can use the langchain cli to **automatically** upgrade many imports. Please see documentation here https://python.langchain.com/v0.2/docs/versions/v0_2/ 
+  warn_deprecated(
+/Users/rb/Documents/Raghu/Projects/GenAI/langchain/langchain-modules/env/lib/python3.11/site-packages/langchain/_api/module_import.py:92: LangChainDeprecationWarning: Importing HuggingFaceEmbeddings from langchain.embeddings is deprecated. Please replace deprecated imports:
+
+>> from langchain.embeddings import HuggingFaceEmbeddings
+
+with new imports of:
+
+>> from langchain_community.embeddings import HuggingFaceEmbeddings
+You can use the langchain cli to **automatically** upgrade many imports. Please see documentation here https://python.langchain.com/v0.2/docs/versions/v0_2/ 
+  warn_deprecated(
+/Users/rb/Documents/Raghu/Projects/GenAI/langchain/langchain-modules/env/lib/python3.11/site-packages/langchain/_api/module_import.py:92: LangChainDeprecationWarning: Importing HuggingFaceHubEmbeddings from langchain.embeddings is deprecated. Please replace deprecated imports:
+
+>> from langchain.embeddings import HuggingFaceHubEmbeddings
+
+with new imports of:
+
+>> from langchain_community.embeddings import HuggingFaceHubEmbeddings
+You can use the langchain cli to **automatically** upgrade many imports. Please see documentation here https://python.langchain.com/v0.2/docs/versions/v0_2/ 
+  warn_deprecated(
+/Users/rb/Documents/Raghu/Projects/GenAI/langchain/langchain-modules/env/lib/python3.11/site-packages/langchain/_api/module_import.py:92: LangChainDeprecationWarning: Importing SentenceTransformerEmbeddings from langchain.embeddings is deprecated. Please replace deprecated imports:
+
+>> from langchain.embeddings import SentenceTransformerEmbeddings
+
+with new imports of:
+
+>> from langchain_community.embeddings import SentenceTransformerEmbeddings
+You can use the langchain cli to **automatically** upgrade many imports. Please see documentation here https://python.langchain.com/v0.2/docs/versions/v0_2/ 
+  warn_deprecated(
+/Users/rb/Documents/Raghu/Projects/GenAI/langchain/langchain-modules/env/lib/python3.11/site-packages/langchain_core/_api/deprecation.py:139: LangChainDeprecationWarning: The class `HuggingFaceEmbeddings` was deprecated in LangChain 0.2.2 and will be removed in 0.3.0. An updated version of the class exists in the langchain-huggingface package and should be used instead. To use it run `pip install -U langchain-huggingface` and import as `from langchain_huggingface import HuggingFaceEmbeddings`.
+  warn_deprecated(
+/Users/rb/Documents/Raghu/Projects/GenAI/langchain/langchain-modules/env/lib/python3.11/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+
+--- Document Chunks Information ---
+Number of document chunks: 13901
+Sample chunk:
+A Game of Thrones, A Clash of Kings, A Storm of Swords, A Feast for
+Crows, and A Dance with Dragons are works of ɹction. Names, places,
+and incidents either are products of the author’s imagination or are
+used ɹctitiously.
+A Bantam Dell eBook Edition
+A Game of Thrones copyright © 1996 by George R. R. Martin
+A Clash of Kings copyright © 1999 by George R. R. Martin
+A Storm of Swords copyright © 2000 by George R. R. Martin
+A Feast for Crows copyright © 2005 by George R. R. Martin
+A Dance with Dragons copyright © 2011 by George R. R. Martin
+All Rights Reserved.
+Published in the United States by Bantam Books, an imprint of The
+Random House Publishing Group, a division of Random House, Inc.,
+New York.
+Bantam Books and colophon are registered trademarks of Random
+House, Inc.
+The novels contained in this omnibus were each published
+separately by Bantam Books, an imprint of The Random House
+Publishing Group, a division of Random House, Inc., in 1996, 1999,
+2000, 2005 and 2011.
+
+
+--- Creating embeddings model ---
+
+--- Creating vector store ---
+
+--- Pinecone Vector store created successfully!! ---
+Index status:  {'dimension': 768,
+ 'index_fullness': 0.0,
+ 'namespaces': {'': {'vector_count': 13901}},
+ 'total_vector_count': 13901}
+Total vectors in the index: 13901
+Number of document chunks: 13901
+
+--- Vector store is up to date ---
+Docs chucked and added to Vector store  successfully!!
